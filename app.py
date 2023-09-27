@@ -32,4 +32,4 @@ def login():
     return render_template('index.html',y="Predicted Placement: "+output)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=False host='0.0.0.0')
